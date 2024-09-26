@@ -70,17 +70,11 @@ export default function Weather(props) {
         <WeatherInfo data={weatherData} />
         <WeatherForecast coordinates={weatherData.coordinates} city={weatherData.city}/>
         <footer>
-          This project was coded by{" "}
-          <a
-            href="https://www.shecodes.io/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            SheCodes
-          </a>{" "}
+          This project was coded by Emily Gallaher
+         
           and is{" "}
           <a
-            href="https://github.com/shecodesio/weather"
+            href="https://github.com/EmilyGallaher/react-app-weather"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -88,7 +82,7 @@ export default function Weather(props) {
           </a>{" "}
           and{" "}
           <a
-            href="https://shecodes-weather.netlify.app/"
+            href="https://app.netlify.com/sites/eloquent-bonbon-d047d3/overview"
             target="_blank"
             rel="noopener noreferrer"
           >
